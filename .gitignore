@@ -1,0 +1,60 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.history/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# TensorFlow/Keras temporary files and logs
+logs/
+tensorboard/
+tb_logs/
+*.tfevents.*
+checkpoint
+ckpt/
+checkpoints/
+
+# Training outputs that can be regenerated
+training/checkpoints/
+
+# Dataset: large corpus and no included license/provenance metadata
+training/dataset/
+
+# General build and package caches
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Local notebooks and test artifacts
+*.log
